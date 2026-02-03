@@ -35,25 +35,25 @@
 <body> 
 <h2>pixel test page</h2>
 <div><ul>
-  <li><button id="addToWishlistButton" type="button">Add to Wishlist (x300000)</button></li>
-  <li><button id="addToCartButton" type="button">Add to Cart (x300000)</button></li>
-  <li><button id="checkoutButton" type="button">Check Out (x300000)</button></li>
-  <li><button id="purchaseButton" type="button">Purchase (x300000)</button></li>
-  <li><button id="subcribeButton" type="button">Subscribe (x300000)</button></li>
-  <li><button id="registrationButton" type="button">Registration (x300000)</button></li>
+  <li><button id="addToWishlistButton" type="button">Add to Wishlist (x10000)</button></li>
+  <li><button id="addToCartButton" type="button">Add to Cart (x10000)</button></li>
+  <li><button id="checkoutButton" type="button">Check Out (x10000)</button></li>
+  <li><button id="purchaseButton" type="button">Purchase (x10000)</button></li>
+  <li><button id="subcribeButton" type="button">Subscribe (x10000)</button></li>
+  <li><button id="registrationButton" type="button">Registration (x10000)</button></li>
 </ul></div>
 <div><ul>
-  <li><button id="siteButton" type="button">Site 1 (x300000)</button></li>
-  <li><button id="invalidpurchaseButton" type="button">Invalid Purchase (x300000)</button></li>
-  <li><button id="searchButton" type="button">Search (x300000)</button></li>
-  <li><button id="contactButton" type="button">Contact (x300000)</button></li>
-  <li><button id="donateButton" type="button">Donate (x300000)</button></li>
-  <li><button id="rateButton" type="button">Rate (x300000)</button></li>
-  <li><button id="adClickButton" type="button">AdClick (x300000)</button></li>
-  <li><button id="purchaseNoValueButton" type="button">Purchase With No Value (x300000)</button></li>
+  <li><button id="siteButton" type="button">Site 1 (x10000)</button></li>
+  <li><button id="invalidpurchaseButton" type="button">Invalid Purchase (x10000)</button></li>
+  <li><button id="searchButton" type="button">Search (x10000)</button></li>
+  <li><button id="contactButton" type="button">Contact (x10000)</button></li>
+  <li><button id="donateButton" type="button">Donate (x10000)</button></li>
+  <li><button id="rateButton" type="button">Rate (x10000)</button></li>
+  <li><button id="adClickButton" type="button">AdClick (x10000)</button></li>
+  <li><button id="purchaseNoValueButton" type="button">Purchase With No Value (x10000)</button></li>
 </ul></div>
 <script type="text/javascript">
-  for(var i = 0; i < 300000; i++) {
+  for(var i = 0; i < 10000; i++) {
 document.getElementById('addToWishlistButton').addEventListener('click', function() {fbq('track', 'AddToWishlist'); }, false);
 document.getElementById('addToCartButton').addEventListener('click', function() {fbq('track', 'AddToCart');}, false);
 document.getElementById('checkoutButton').addEventListener('click', function() {fbq('track', 'InitiateCheckout');}, false);
