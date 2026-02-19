@@ -75,6 +75,9 @@
   <li><button id="rateButton" type="button">Rate (x10)</button></li>
   <li><button id="adClickButton" type="button">AdClick (x10)</button></li>
   <li><button id="purchaseNoValueButton" type="button">Purchase With No Value (x10)</button></li>
+  <li><button id="CustomNo1button" type="button">Custom Event No 1(x10)</button></li>
+  <li><button id="CustomNo2button" type="button">Custom Event No 2(x10)</button></li>
+  <li><button id="CustomNo3button" type="button">Custom Event No 3(x10)</button></li>  
 </ul></div>
 <script type="text/javascript">
   for(var i = 0; i < 10; i++) {
@@ -92,6 +95,9 @@ document.getElementById('donateButton').addEventListener('click', function() {fb
 document.getElementById('rateButton').addEventListener('click', function() {fbq('track', 'Rate'); }, false);    
 document.getElementById('adClickButton').addEventListener('click', function() {fbq('track', 'AdClick'); }, false);
 document.getElementById('purchaseNoValueButton').addEventListener('click', function() {fbq('track', 'Purchase', {currency: 'USD',});}, false);
+document.getElementById('CustomNo1Button').addEventListener('click', function() {fbq('track', 'Custom Event No 1', {currency: 'USD',});}, false);
+document.getElementById('CustomNo2Button').addEventListener('click', function() {fbq('track', 'Custom Event No 2', {currency: 'USD',});}, false);
+document.getElementById('CustomNo3Button').addEventListener('click', function() {fbq('track', 'Custom Event No 3', {currency: 'USD',});}, false);      
 }
 </script>
 </body>
